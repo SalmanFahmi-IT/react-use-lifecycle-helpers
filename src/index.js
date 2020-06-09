@@ -87,7 +87,7 @@ const useLifecycleHelpers = (state = {}, props = {}) => {
 
    * You should not call setState() in useWillUnmount() because the component will never be re-rendered.
    * Once a component instance is unmounted, it will never be mounted again.
-   * @param {Function} callback
+   * @param {Function} callback   
    */
   const useWillUnmount = callback => {
     useEffect(() => {
